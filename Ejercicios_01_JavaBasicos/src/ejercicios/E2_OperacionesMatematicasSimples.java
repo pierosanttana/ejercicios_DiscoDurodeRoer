@@ -1,6 +1,6 @@
 package ejercicios;
 
-public class OperacionesMatematicasSimples {
+public class E2_OperacionesMatematicasSimples {
 
 	public static void main(String[] args) {
 		

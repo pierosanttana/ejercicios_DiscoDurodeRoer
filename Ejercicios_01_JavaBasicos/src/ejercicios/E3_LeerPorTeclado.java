@@ -2,7 +2,7 @@ package ejercicios;
 
 import java.util.Scanner;
 
-public class LeerPorTeclado {
+public class E3_LeerPorTeclado {
 
 	public static void main(String[] args) {
 		// 3. Lee un número por teclado y muestra por consola, el caracter al que 

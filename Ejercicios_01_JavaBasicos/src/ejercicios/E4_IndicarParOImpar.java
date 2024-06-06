@@ -2,7 +2,7 @@ package ejercicios;
 
 import java.util.Scanner;
 
-public class IndicarParOImpar {
+public class E4_IndicarParOImpar {
 
 	public static void main(String[] args) {
 		// 4. Indicar si un número pasado por consola es par o no.

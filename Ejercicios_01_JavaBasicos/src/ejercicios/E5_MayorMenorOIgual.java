@@ -2,7 +2,7 @@ package ejercicios;
 
 import java.util.Scanner;
 
-public class MayorMenorOIgual {
+public class E5_MayorMenorOIgual {
 
 	public static void main(String[] args) {
 		// 5. Pedir 2 números por teclado e indicar si uno es mayor que el otro o si son iguales.

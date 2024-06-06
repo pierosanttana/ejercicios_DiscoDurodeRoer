@@ -1,6 +1,6 @@
 package ejercicios;
 
-public class ImprimirPorPantalla {
+public class E1_ImprimirPorPantalla {
 
 	public static void main(String[] args) {
 		// 1. Imprimir "Hola Mundo" por pantalla.
