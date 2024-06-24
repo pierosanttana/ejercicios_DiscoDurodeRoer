@@ -15,10 +15,10 @@ public class E22_EnumDias {
 		
 		String sDia = scanner.nextLine();
 		
-		Dias dia = Dias.valueOf(sDia.toUpperCase());
+		Dias eDia = Dias.valueOf(sDia.toUpperCase());
 		
 		
-		switch(dia) {
+		switch(eDia) {
 		case LUNES:
 		case MARTES:
 		case MIERCOLES:
@@ -28,7 +28,7 @@ public class E22_EnumDias {
 			break;
 		case SABADO:
 		case DOMINGO:
-			System.out.println("Es fin de semana! :) ");
+			System.out.println("No es laborable, es fin de semana! :) ");
 			break;
 		default:
 			System.out.println("No es un día de la semana.");
