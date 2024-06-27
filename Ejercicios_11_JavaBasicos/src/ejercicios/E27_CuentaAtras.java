@@ -8,7 +8,7 @@ public class E27_CuentaAtras {
 		 */
 
 		int hora = 1;
-		int minuto = 0;
+		int minuto = 2;
 		int segundo = 10;
 
 		while (hora != 0 || minuto != 0 || segundo != 0) {
@@ -17,20 +17,17 @@ public class E27_CuentaAtras {
 			
 			
 			if(segundo == 0) {
-				
 				if(minuto == 0) {
 					hora--;
 					minuto = 59;
 					segundo = 59;
-				}else if (minuto != 0) {
+				}else if(minuto != 0) {
 					minuto--;
 					segundo = 59;
-					
 				}
 			}else {
 				segundo--;
 			}
-			
 			
 
 		}
