@@ -1,0 +1,33 @@
+switch(numero) {
+			case "0":
+			case "1":
+			case "2":
+			case "3":
+			case "4":
+			case "5":
+			case "6":
+			case "7":
+			case "8":
+			case "9":
+				for (String s : numSecreto) {
+					
+					try {
+						if(s.equals(numero)) {
+						nExiste = true;
+						System.out.println("Número ingresa incorrecto, vuelve a intentarlo");
+						i--;
+					}
+					} catch (Exception e) {
+						
+					}
+					
+					if(!nExiste) {
+						numSecreto[i] = numero;
+					}
+					
+				}
+				break;
+			default:
+				System.out.println("Número ingresa incorrecto, vuelve a intentarlo");
+				i--;
+			}
