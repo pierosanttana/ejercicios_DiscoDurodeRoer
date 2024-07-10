@@ -113,11 +113,11 @@ public class E28_TorosYVacas {
 		String[] num = { "a", "a", "a", "a" };
 
 		System.out.println("Debes ingresar un número de 4 digitos que no se repitan:");
+		String numero = scanner.nextLine();
 
 		for (int i = 0; i < num.length; i++) {
 			System.out.println("Digito " + (i + 1) + ": (Entre el 0 - 9)");
 			boolean nExiste = false;
-			String numero = scanner.nextLine();
 
 			switch (numero) {
 			case "0":
